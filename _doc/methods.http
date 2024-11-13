@@ -1,0 +1,8 @@
+###
+POST http://localhost:3000/api-gateway
+Content-Type: application/json
+
+{
+    "userId": "123",
+    "price": 123
+}
