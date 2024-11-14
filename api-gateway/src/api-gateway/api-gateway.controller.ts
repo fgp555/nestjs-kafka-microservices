@@ -8,6 +8,7 @@ export class ApiGatewayController {
 
   @Post()
   create(@Body() createApiGatewayDto: CreateApiGatewayDto) {
+    console.log("createApiGatewayDto: ", createApiGatewayDto);
     return this.apiGatewayService.create(createApiGatewayDto);
   }
 }
